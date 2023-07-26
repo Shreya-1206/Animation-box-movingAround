@@ -1,0 +1,36 @@
+@keyframes Movearound {
+    0%,100% {
+        left: 0px;
+        top:0px;
+        background-color: #0079FF;
+    }
+    25% {
+        left:200px;
+        top:0px;
+        background-color: #00DFA2;
+    }
+    50% {
+        left:200px;
+        top:200px;
+        background-color: #F6FA70;
+        border-radius: 100px;
+    }
+    75% { 
+        left:0px;
+        top:200px;
+        background-color: #FF0060;
+    }
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #0079FF;
+    position: relative;
+    animation-name: Movearound ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+}
